@@ -4,7 +4,7 @@
 
 ## Descripción
 
-La aplicación tiene como objetivo proporcionar a los usuarios un mercado en línea donde puedan subir y comprar productos de forma sencilla y conveniente. Aunque todavía se está trabajando en el desarrollo de todas las funcionalidades y características, creemos en el potencial de esta aplicación para crear una experiencia de compra única.
+La aplicación tiene como objetivo proporcionar a los usuarios un mercado en línea donde puedan subir y comprar productos de forma sencilla y conveniente. Además, buscamos poner de manifiesto **buenas prácticas de programación** y hacer uso de una **arquitectura MVVM**. Aunque todavía estamos trabajando en el desarrollo de todas las funcionalidades y características, creemos en el potencial de esta aplicación para crear una experiencia de compra única.
 
 ## Estado del Proyecto
 
