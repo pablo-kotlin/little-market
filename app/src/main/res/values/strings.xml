@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LittleMarket</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Add article fragment</string>
+    <string name="text_insert">INSERT</string>
+    <string name="text_list">ARTICLES</string>
+    <string name="text_modify">MODIFY</string>
+</resources>

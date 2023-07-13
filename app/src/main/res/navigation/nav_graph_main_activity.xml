@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main_activity"
+    app:startDestination="@id/navigation_see_article">
+
+    <fragment
+        android:id="@+id/navigation_see_article"
+        android:name="com.project.littlemarket.ui.view.ListArticlesFragment"
+        tools:layout="@layout/fragment_list_articles" />
+
+    <fragment
+        android:id="@+id/navigation_insert_article"
+        android:name="com.project.littlemarket.ui.view.InsertArticleFragment"
+        tools:layout="@layout/fragment_insert_article" />
+
+    <fragment
+        android:id="@+id/navigation_modify_article"
+        android:name="com.project.littlemarket.ui.view.ModifyArticleFragment"
+        tools:layout="@layout/fragment_modify_article" />
+
+</navigation>

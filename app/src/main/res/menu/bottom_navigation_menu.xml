@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_see_article"
+        android:title="@string/text_list" />
+    <item
+        android:id="@+id/navigation_insert_article"
+        android:title="@string/text_insert" />
+    <item
+        android:id="@+id/navigation_modify_article"
+        android:title="@string/text_modify" />
+</menu>
