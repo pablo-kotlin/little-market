@@ -1,4 +1,4 @@
-# Nombre de la Aplicación
+# Corner Market
 
 **Nota importante: Esta aplicación se encuentra en una fase muy temprana y aún no está completamente desarrollada ni madura. Ten en cuenta esta información antes de utilizarla.**
 
