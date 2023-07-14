@@ -10,6 +10,7 @@ object Constants {
     const val PATH_DELETE_TOKEN = BASE_URL + "DeleteToken.php"
 
     const val PATH_GET_ARTICLES = "Articles.php"
+    const val PATH_INSERT_ARTICLE = "InsertArticle.php"
 
     const val PATH_GET_USERS = "ToDefine.php"
 
