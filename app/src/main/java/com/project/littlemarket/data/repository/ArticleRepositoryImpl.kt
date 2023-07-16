@@ -29,4 +29,35 @@ class ArticleRepositoryImpl : ArticleRepository {
         }
     }
 
+    override suspend fun deleteArticle(articleId: Int) {
+        try {
+            val response = ApiClient.articleService.deleteArticle(articleId)
+            if (response.isSuccessful) {
+                Log.d("Repository", "Article deleted successfully")
+            } else {
+                Log.e("Repository", "Failed to delete article: ${response.errorBody()?.string()}")
+            }
+        } catch (e: Exception) {
+            Log.e("Repository", "Failed to delete article: ${e.message}")
+        }
+    }
+
+    override suspend fun updateArticle(article: Article) {
+        try {
+            val response = ApiClient.articleService.updateArticle(
+                article.id,
+                article.name,
+                article.price,
+                article.discount
+            )
+            if (response.isSuccessful) {
+                Log.d("Repository", "Article updated successfully")
+            } else {
+                Log.e("Repository", "Failed to update article: ${response.errorBody()?.string()}")
+            }
+        } catch (e: Exception) {
+            Log.e("Repository", "Failed to update article: ${e.message}")
+        }
+    }
+
 }

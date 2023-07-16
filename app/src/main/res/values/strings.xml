@@ -9,4 +9,8 @@
     <string name="price">Precio</string>
     <string name="discount">Descuento</string>
     <string name="btn_save_product">GUARDAR</string>
+    <string name="btn_delete_article">Eliminar</string>
+    <string name="btn_modify_article">Modificar</string>
+    <string name="btn_upload_picture">Cargar Foto</string>
+    <string name="article_image">Imagen del artículo</string>
 </resources>
